@@ -8,10 +8,14 @@
 <body>
     <?php
         //Creating a variable that has my age
-        $age = 24;
+        $age = 40;
 
-        //De este modo se puede imprimir en pantalla texto partido en varias lineas
+        echo "My name is Santi" . "<br/>" . "I´m " . $age . " years old." . "<br/>" . "I live in Gran Canaria"
+
+        /*
+        De este modo se puede imprimir en pantalla texto partido en varias lineas
         echo nl2br("My name is Santi. \r\n I live in Gran Canaria. \r\n I like programmin.");
+        */
 
         // print "Hello " . "World";
         // echo "Hello ", "World";
